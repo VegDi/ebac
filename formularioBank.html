@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./formulariobank.css"/>
+    <title>Bank Banco</title>
+</head>
+<body>
+    <header>
+<div class="secao">
+    <h1>Bank Banco</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+            <li>
+                <a href="#contact">Extrato</a>
+            </li>
+            <li>
+                <a href="#container">Deposito</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+    </header>
+<div class="container">
+    <h2>Depósito</h2>
+    <form id="form-deposito">
+    <input type="text" id="nome-beneficiario" required placeholder="Nome completo do beneficiário"/>
+    <p class="error-message">
+        O nome precisa ser completo
+    </p>
+    <Input type="number"id="numero-conta" required placeholder="Número da conta"/>
+    <Input type="number" id="valor-deposito" required placeholder="Valor"/>
+    <textarea placeholder="Descrição (opcional)" id="descrição"></textarea>
+    <button id="btn-depositar" type="submit">Depositar</button>
+</form>
+<p class="success-message"></p>
+</div>
+<script src="./main.js"></script>
+<footer>
+    <div class="container">
+        <p>
+        &copy; Bank Banco - Todos os direitos reservados - 2022
+        </p>
+    </div>
+    </footer>
+</body>
+</html>
