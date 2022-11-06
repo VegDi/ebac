@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    background-color: rgba(52, 21, 190, 0.938);
+    padding-top: 16px;
+    color: #ffff;  
+    
+}
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+header > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+nav{
+    background-color: rgb(110, 111, 219);
+    padding: 16px 0;
+    display: none;
+
+}
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffff;
+    
+}
+.menu-hamburguer{
+    width: 40px;
+    cursor: pointer;
+}
+.menu-hamburguer span{
+    height: 3px;
+    width: 100%;
+    background-color: #ffff;
+    display: block;
+    margin-bottom: 4px;
+}
+.container-flex{
+    display: flex;
+}
+#sobre-a-loja img{
+    max-width: 400px;
+    margin-right: 24px;
+}
+section{
+    padding: 48px 0;
+}
+section  h2{
+    margin-bottom: 16px;
+}
+.form-campo{
+    margin-bottom: 16px;
+}
+.form-campo label{
+    font-weight: bold;
+    display: block;
+}
+.form-campo input,
+.form-campo textarea{
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+.form-campo textarea{
+    resize: none;
+    height: 120px;
+}
+form{
+    max-width: 360px;
+}
+form button{
+    max-width: 120px;
+}
+button{
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #119759;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+footer{
+    background-color: blue;
+    color: #ffff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 16px 0;
+}
+
+
+
