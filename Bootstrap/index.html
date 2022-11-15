@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+<div class="container">
+    </div>
+    <div class="col-4">
+        <h2>Formulário de cadastro</h2>
+        <form>
+            <label class="form-label" for="nome">Seu nome:</label>
+            <input class="form-control" type="text" id="nome"/>
+            <label class="form-label" for="email">Seu e-mail:</label>
+            <input class="form-control" type="email" id="email"/>
+            <label class="form-label" for="telefone">Seu telefone:</label>
+            <input class="form-control item" type="tel" id="telefone"/>
+            <a class="btn btn-primary btn-sm">Enviar</a>
+        </form>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script>
+
+    $(document).ready(function(){
+    $('#telefone').mask('(00) 00000-0000');
+});
+
+    </script>
+</body>
+</html>
